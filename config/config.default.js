@@ -24,7 +24,8 @@ module.exports = app => {
   ];
 
   exports.reactssr = {
-    layout: path.join(app.baseDir, 'app/web/view/layout.html')
+    // layout: path.join(app.baseDir, 'app/web/view/layout.html')
+    layout: path.join(app.baseDir, 'app/web/src/layouts/BasicLayout/index.js')
   };
 
   return exports;
